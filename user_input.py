@@ -6,6 +6,6 @@ User Input
 username = input("What is your username: ")
 print("Your username is: " + username)
 
-number = input("Enter a number: ")  # int("45")  => 45
+number = int(input("Enter a number: "))  # int("45")  => 45
 factor = 4 * number
-print(f'The addition of {number} * 4 is {number*factor}')
+print(f'The addition of {number} * 4 is {factor}')

@@ -11,6 +11,19 @@ print(greeting)
 two_lines = "This is the first line \n and this is a second line"
 print(two_lines)
 
+# Multiline String
+paragraph = """This is a first sentence that is written in this line.
+The second sentence begin  here, and it is followed by a comma.
+The last line is the line that close the paragraph."""
+print(paragraph)
+print()
+paragraph = '''This is a first sentence that is written in this line.
+The second sentence begin  here, and it is followed by a comma.
+The last line is the line that close the paragraph.'''
+print(paragraph)
+print("\n")
+
+
 """
 String operators
 """
