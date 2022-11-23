@@ -59,3 +59,21 @@ print(len(symbols))
 symbols = {'a': 'alfa', 'b': 'beta', 'd': 'delta'}
 print('a' in symbols)
 print('e' not in symbols)
+print()
+
+# Get Keys, get Values and get Items
+my_keys = symbols.keys()
+print(my_keys)
+
+my_values = symbols.values()
+print(my_values)
+
+my_items = symbols.items()
+print(my_items)
+
+print()
+# Loop through a dictionary
+symbols = {'a': 'alfa', 'b': 'beta', 'd': 'delta'}
+for s in symbols:
+    print(symbols[s])
+print()

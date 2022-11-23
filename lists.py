@@ -82,7 +82,7 @@ print(my_list)
 
 # pop()
 my_list = [1, 2, 3]
-my_list.pop(1)  # delete the element at index 0
+my_list.pop(1)  # delete the element at index 1
 print(my_list)
 
 # del
@@ -91,8 +91,8 @@ del my_list[0]
 print(my_list)
 
 # remove()
-my_list = [1, 2, 3]
-my_list.remove(3)
+my_list = [1, 4, 3]
+my_list.remove(4)
 print(my_list)
 
 # reverse() : reverse the elements in a list
@@ -100,17 +100,11 @@ my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 my_list.reverse()
 print(my_list)      # [9, 8, 7, 6, 5, 4, 3, 2, 1]
 
+# copy a list
+my_list = ["Aaron", "Zidane", "Marco"]
+# my_list_copy = my_list => my_list_copy will be a reference to my_list
+my_list_copy = my_list.copy()   # or my_list_copy = list(my_list)
+print(my_list_copy)
 
-""" Loop through a List """
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-for number in my_list:
-    # print(number)
-    pass
 
-for i in range(len(my_list)):
-    # print(my_list[i])
-    pass
 
-""" List comprehension """
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-# [print(x) for x in my_list]

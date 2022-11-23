@@ -3,6 +3,7 @@ Python Loops: Repeat an action several times
 """
 
 """ For Loops: A for loop is used for iterating over a sequence (lists, tuple, set, or string """
+
 fruits = ["banana", "orange", 'apple', "ananas"]
 for f in fruits:
     print(f)
@@ -59,7 +60,3 @@ while i < 5:
     print(i)
     i = i + 1
 
-# The break Statement
-
-
-# The continue Statement

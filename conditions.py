@@ -44,9 +44,9 @@ if number1 > 10:
 else:
     print("Number1 is not greater than or equal to 10.")
 
-# Short Hand if and Short Hand if ... else
+# Short Hand if
 if 2 < 10: print("2 is less than 10")
-
+# Short Hand if ... else
 print("Winner") if 15 > 10 else print("Loser")
 
 
