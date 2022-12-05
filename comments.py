@@ -11,7 +11,7 @@ This a is a multiline comments. use this when you
 want to write comments in many lines
 """
 
-# this a comment hhfhfhff
+# this a comment
 print("Hello World!")   # this a comment
 # print("How are you?")
 print("I'm good, Thanks!")

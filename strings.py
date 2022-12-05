@@ -4,10 +4,10 @@ String
 
 school_name = "University of Colorado"
 name = 'Arouna'
+
 greeting = "Hello students. I'm your professor!"
-greeting = 'Hello students. I\'m your professor!'
-print("\n")     # new line
 print(greeting)
+
 two_lines = "This is the first line \n and this is a second line"
 print(two_lines)
 
@@ -85,10 +85,11 @@ print(greeting)
 greeting = "Hello, {}. Welcome to the Python programming course".format(user)
 print(greeting)
 
-greeting = "Hello, {0}. Welcome to the {1} course".format(user, "C/C++")
+greeting = "Hello, {1}. Welcome to the {0} course".format(user, "C/C++")
 print(greeting)
+
 
 name = "Mounchili"
 today = "Saturday"
-greeting = f'Good evening {name}. Today is {today}!'
+greeting = f"Good evening {name}. Today is {today}!"
 print(greeting)

@@ -9,8 +9,8 @@ third = "Carlos"
 fourth = "Freddy"
 
 students = ["Arouna", "Ronald", "Carlos", "Freddy"]
-print(students)
-print()
+print(students, "\n")
+
 
 # get the first element
 students = ["Arouna", "Ronald", "Carlos", "Freddy"]
@@ -33,7 +33,7 @@ print()
 
 
 # List can contain different types of variables
-number_of_people_in_classroom = [45, 67, "fifty", "twenty", 70]
+number_of_people_in_classroom = [45.7, 67, "fifty", "twenty", 70, True]
 
 # Slicing
 ages = [10, 28, 35, 14, 45, 16, 7, 38]
@@ -59,7 +59,7 @@ my_string = "Hello!"
 
 # len() : get the length os a list
 my_string = ["h", "e", "l", "l", "o"]
-print(len(my_list))
+print(len(my_string))
 print()
 
 # append() : add an element to a list

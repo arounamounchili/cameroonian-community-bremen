@@ -25,6 +25,7 @@ if age_player1 < age_player2:
 elif age_player1 > age_player2:
     print("Player 1 is older than player 2")
 
+
 # else: if all previous conditions were not true, execute this condition
 somme1 = 50000
 somme2 = 50000
@@ -45,7 +46,9 @@ else:
     print("Number1 is not greater than or equal to 10.")
 
 # Short Hand if
-if 2 < 10: print("2 is less than 10")
+if 2 < 10:
+    print("2 is less than 10")
+
 # Short Hand if ... else
 print("Winner") if 15 > 10 else print("Loser")
 
@@ -62,6 +65,7 @@ score2 = 9
 if score1 < average or score2 < average:
     print("score1 or score2 are bellow the average")
 
+
 # Nested if
 somme = 20000
 if somme < 50000:
@@ -75,9 +79,3 @@ else:
 
 print("La somme est: ", somme)
 
-# The pass statement: if for some reason you have a if statement with no content
-x = 10
-y = 22
-
-if x < y:
-    pass

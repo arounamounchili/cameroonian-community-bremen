@@ -8,4 +8,4 @@ print("Your username is: " + username)
 
 number = int(input("Enter a number: "))  # int("45")  => 45
 factor = 4 * number
-print(f'The addition of {number} * 4 is {factor}')
+print(f'The addition of {number} * 4 is {number*factor}')

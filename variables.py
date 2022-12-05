@@ -10,16 +10,18 @@ Variables are used to store values and then reuse them as many times as we want.
 surname = "Mounchili"
 name = "Arouna"
 print(type(name))
+
 name = 45
 print(type(name))
 students_number = 12
 
-age =  12.90
+age = 12.90
 
 # Case-sensitive
 height = 15
-Height = 12     # HEIGHT and height are different
-
+Height = 12     # height and Height are different
+print(height)
+print(Height)
 
 
 """

@@ -1,12 +1,16 @@
 """
-Python Loops: Repeat an action several times
+Python Loops: Repeat an action several times. Looping represents the ability of
+              the program to execute a set of instructions over and over again
+              until a certain condition is met
 """
 
 """ For Loops: A for loop is used for iterating over a sequence (lists, tuple, set, or string """
 
 fruits = ["banana", "orange", 'apple', "ananas"]
+
 for f in fruits:
     print(f)
+
 
 # Looping through a String
 name = "Elon Musk"
@@ -17,10 +21,10 @@ print()
 
 # The break Statement
 fruits = ["banana", "orange", 'apple', "ananas"]
-for i in fruits:
-    if i == "apple":
+for z in fruits:
+    if z == "apple":
         break
-    print(i)
+    print(z)
 
 
 print()
@@ -33,7 +37,7 @@ for i in fruits:
 
 
 # The range() Function
-for x in range(10):
+for x in range(10):   # [3, 1, ... ,9
     print(x)
 print()
 

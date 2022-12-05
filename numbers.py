@@ -1,15 +1,16 @@
 """ Numbers in Python: integers, floats, complex """
 
+
 # Integers
 number1 = -10
 number2 = 12
-result1 = -10 + 12
+result1 = -10 + 4 # 6
 result1 = number1 + number2
 print("The result is: ", result1)
 
 # Floats
 height = 63.459
-weight = float(80)
+weight = float(80) # 80.0
 print("The weight is: ", weight)  # 80.0
 print("")
 
@@ -23,7 +24,6 @@ print("\nThe complex number 1 is: ", complex_number1)
 print("The complex number 2 is: ", complex_number2)
 result2 = complex_number1 - complex_number2
 print("The result of the subtraction of complex number is: ", result2)
-
 
 
 # Verify the type of any objet in Python
